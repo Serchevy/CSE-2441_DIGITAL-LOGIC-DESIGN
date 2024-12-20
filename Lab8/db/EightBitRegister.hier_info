@@ -1,0 +1,374 @@
+|EightBitRegister
+X[0] => X[0].IN2
+X[1] => X[1].IN2
+X[2] => X[2].IN2
+X[3] => X[3].IN2
+X[4] => X[4].IN2
+X[5] => X[5].IN2
+X[6] => X[6].IN2
+X[7] => X[7].IN2
+inA => inA.IN1
+inB => inB.IN1
+Add_Sub => Add_Sub.IN1
+Out => Out.IN2
+Clear => Clear.IN4
+CCout[0] << NBitRegister:regCC.Q
+CCout[1] << NBitRegister:regCC.Q
+CCout[2] << NBitRegister:regCC.Q
+CCout[3] << NBitRegister:regCC.Q
+HEX5[6] << binary2seven:hex5.outbin
+HEX5[5] << binary2seven:hex5.outbin
+HEX5[4] << binary2seven:hex5.outbin
+HEX5[3] << binary2seven:hex5.outbin
+HEX5[2] << binary2seven:hex5.outbin
+HEX5[1] << binary2seven:hex5.outbin
+HEX5[0] << binary2seven:hex5.outbin
+HEX4[6] << binary2seven:hex4.outbin
+HEX4[5] << binary2seven:hex4.outbin
+HEX4[4] << binary2seven:hex4.outbin
+HEX4[3] << binary2seven:hex4.outbin
+HEX4[2] << binary2seven:hex4.outbin
+HEX4[1] << binary2seven:hex4.outbin
+HEX4[0] << binary2seven:hex4.outbin
+HEX3[6] << binary2seven:hex3.outbin
+HEX3[5] << binary2seven:hex3.outbin
+HEX3[4] << binary2seven:hex3.outbin
+HEX3[3] << binary2seven:hex3.outbin
+HEX3[2] << binary2seven:hex3.outbin
+HEX3[1] << binary2seven:hex3.outbin
+HEX3[0] << binary2seven:hex3.outbin
+HEX2[6] << binary2seven:hex2.outbin
+HEX2[5] << binary2seven:hex2.outbin
+HEX2[4] << binary2seven:hex2.outbin
+HEX2[3] << binary2seven:hex2.outbin
+HEX2[2] << binary2seven:hex2.outbin
+HEX2[1] << binary2seven:hex2.outbin
+HEX2[0] << binary2seven:hex2.outbin
+HEX1[6] << binary2seven:hex1.outbin
+HEX1[5] << binary2seven:hex1.outbin
+HEX1[4] << binary2seven:hex1.outbin
+HEX1[3] << binary2seven:hex1.outbin
+HEX1[2] << binary2seven:hex1.outbin
+HEX1[1] << binary2seven:hex1.outbin
+HEX1[0] << binary2seven:hex1.outbin
+HEX0[6] << binary2seven:hex0.outbin
+HEX0[5] << binary2seven:hex0.outbin
+HEX0[4] << binary2seven:hex0.outbin
+HEX0[3] << binary2seven:hex0.outbin
+HEX0[2] << binary2seven:hex0.outbin
+HEX0[1] << binary2seven:hex0.outbin
+HEX0[0] << binary2seven:hex0.outbin
+Rout[0] << Rout[0].DB_MAX_OUTPUT_PORT_TYPE
+Rout[1] << Rout[1].DB_MAX_OUTPUT_PORT_TYPE
+Rout[2] << Rout[2].DB_MAX_OUTPUT_PORT_TYPE
+Rout[3] << Rout[3].DB_MAX_OUTPUT_PORT_TYPE
+Rout[4] << Rout[4].DB_MAX_OUTPUT_PORT_TYPE
+Rout[5] << Rout[5].DB_MAX_OUTPUT_PORT_TYPE
+Rout[6] << Rout[6].DB_MAX_OUTPUT_PORT_TYPE
+Rout[7] << Rout[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|NBitRegister:regA
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+CLK => Q[2]~reg0.CLK
+CLK => Q[3]~reg0.CLK
+CLK => Q[4]~reg0.CLK
+CLK => Q[5]~reg0.CLK
+CLK => Q[6]~reg0.CLK
+CLK => Q[7]~reg0.CLK
+CLR => Q[0]~reg0.ACLR
+CLR => Q[1]~reg0.ACLR
+CLR => Q[2]~reg0.ACLR
+CLR => Q[3]~reg0.ACLR
+CLR => Q[4]~reg0.ACLR
+CLR => Q[5]~reg0.ACLR
+CLR => Q[6]~reg0.ACLR
+CLR => Q[7]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|NBitRegister:regB
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+CLK => Q[2]~reg0.CLK
+CLK => Q[3]~reg0.CLK
+CLK => Q[4]~reg0.CLK
+CLK => Q[5]~reg0.CLK
+CLK => Q[6]~reg0.CLK
+CLK => Q[7]~reg0.CLK
+CLR => Q[0]~reg0.ACLR
+CLR => Q[1]~reg0.ACLR
+CLR => Q[2]~reg0.ACLR
+CLR => Q[3]~reg0.ACLR
+CLR => Q[4]~reg0.ACLR
+CLR => Q[5]~reg0.ACLR
+CLR => Q[6]~reg0.ACLR
+CLR => Q[7]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|binary2seven:hex5
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+outbin[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outbin[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outbin[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outbin[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outbin[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outbin[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outbin[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|binary2seven:hex4
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+outbin[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outbin[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outbin[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outbin[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outbin[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outbin[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outbin[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|binary2seven:hex3
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+outbin[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outbin[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outbin[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outbin[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outbin[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outbin[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outbin[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|binary2seven:hex2
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+outbin[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outbin[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outbin[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outbin[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outbin[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outbin[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outbin[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic
+Aout[0] => Aout[0].IN1
+Aout[1] => Aout[1].IN1
+Aout[2] => Aout[2].IN1
+Aout[3] => Aout[3].IN1
+Aout[4] => Aout[4].IN1
+Aout[5] => Aout[5].IN1
+Aout[6] => Aout[6].IN1
+Aout[7] => Aout[7].IN1
+Bout[0] => comb.IN0
+Bout[1] => comb.IN0
+Bout[2] => comb.IN0
+Bout[3] => comb.IN0
+Bout[4] => comb.IN0
+Bout[5] => comb.IN0
+Bout[6] => comb.IN0
+Bout[7] => comb.IN0
+Add_Sub => C[0].IN1
+R[0] <= FAbehav:s0.port3
+R[1] <= FAbehav:s1.port3
+R[2] <= FAbehav:s2.port3
+R[3] <= FAbehav:s3.port3
+R[4] <= FAbehav:s4.port3
+R[5] <= FAbehav:s5.port3
+R[6] <= FAbehav:s6.port3
+R[7] <= FAbehav:s7.port3
+Cout <= FAbehav:s7.port4
+OVR <= OVR.DB_MAX_OUTPUT_PORT_TYPE
+Neg <= FAbehav:s7.port3
+Zero <= Zero.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s0
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s1
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s2
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s3
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s4
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s5
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s6
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|RippleCarryAdder:Logic|FAbehav:s7
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|NBitRegister:regR
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+CLK => Q[2]~reg0.CLK
+CLK => Q[3]~reg0.CLK
+CLK => Q[4]~reg0.CLK
+CLK => Q[5]~reg0.CLK
+CLK => Q[6]~reg0.CLK
+CLK => Q[7]~reg0.CLK
+CLR => Q[0]~reg0.ACLR
+CLR => Q[1]~reg0.ACLR
+CLR => Q[2]~reg0.ACLR
+CLR => Q[3]~reg0.ACLR
+CLR => Q[4]~reg0.ACLR
+CLR => Q[5]~reg0.ACLR
+CLR => Q[6]~reg0.ACLR
+CLR => Q[7]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|binary2seven:hex1
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+outbin[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outbin[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outbin[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outbin[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outbin[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outbin[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outbin[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|binary2seven:hex0
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+outbin[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+outbin[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+outbin[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+outbin[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+outbin[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+outbin[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+outbin[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|EightBitRegister|NBitRegister:regCC
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+CLK => Q[0]~reg0.CLK
+CLK => Q[1]~reg0.CLK
+CLK => Q[2]~reg0.CLK
+CLK => Q[3]~reg0.CLK
+CLR => Q[0]~reg0.ACLR
+CLR => Q[1]~reg0.ACLR
+CLR => Q[2]~reg0.ACLR
+CLR => Q[3]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

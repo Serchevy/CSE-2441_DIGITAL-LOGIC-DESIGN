@@ -1,0 +1,41 @@
+# do Lab2.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:03:35 on Feb 03,2023
+# vlog -work work Lab2.vo 
+# -- Compiling module Lab2
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	Lab2
+# End time: 15:03:36 on Feb 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:03:36 on Feb 03,2023
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module Lab2_vlg_vec_tst
+# 
+# Top level modules:
+# 	Lab2_vlg_vec_tst
+# End time: 15:03:36 on Feb 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Lab2_vlg_vec_tst 
+# Start time: 15:03:37 on Feb 03,2023
+# Loading work.Lab2_vlg_vec_tst
+# Loading work.Lab2
+# Loading work.hard_block
+# Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb
+# Loading fiftyfivenm_ver.fiftyfivenm_io_obuf
+# Loading fiftyfivenm_ver.fiftyfivenm_io_ibuf
+# Loading fiftyfivenm_ver.fiftyfivenm_unvm
+# Loading fiftyfivenm_ver.fiftyfivenm_adcblock
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\~QUARTUS_CREATED_ADC1~ '.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: Lab2.vo Line: 213
+# ** Warning: (vsim-3722) Lab2.vo(213): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\~QUARTUS_CREATED_ADC2~ '.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab2_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC2~  File: Lab2.vo Line: 236
+# ** Warning: (vsim-3722) Lab2.vo(236): [TFMPC] - Missing connection for port 'clk_dft'.
+# after#24
+# ** Note: $finish    : Waveform.vwf.vt(51)
+#    Time: 1 us  Iteration: 0  Instance: /Lab2_vlg_vec_tst
+# End time: 15:03:38 on Feb 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4

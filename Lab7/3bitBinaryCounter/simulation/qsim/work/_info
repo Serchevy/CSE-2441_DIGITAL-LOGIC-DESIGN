@@ -1,0 +1,104 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyCSE2441Labs/Lab7/3bitBinaryCounter/simulation/qsim
+v\3bitBinaryCounter 
+!s110 1679691174
+!i10b 1
+!s100 R2AmeARojN6WR5A@FeIl^1
+IcH8Y^iS;V5=dPTOEPa_KA2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1679691174
+Z2 83bitBinaryCounter.vo
+Z3 F3bitBinaryCounter.vo
+L0 32
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1679691174.000000
+Z4 !s107 3bitBinaryCounter.vo|
+Z5 !s90 -work|work|3bitBinaryCounter.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@1343bit@binary@counter@040
+vbit3BinaryCounter
+Z8 !s110 1679701804
+!i10b 1
+!s100 _BLEGU20FB?ek7HZ2n<NJ1
+Z9 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7k>SLf0A0XIiZ`n13kzoY0
+R1
+R0
+Z10 w1679701804
+R2
+R3
+!i122 8
+L0 32 441
+Z11 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z12 !s108 1679701803.000000
+R4
+R5
+!i113 1
+R6
+R7
+nbit3@binary@counter
+vbit3BinaryCounter_vlg_vec_tst
+R8
+!i10b 1
+!s100 W7IiQ[`:UMK<K1T98>dZ90
+R9
+IcbES7>dkYT8NeRNQ9?j5;2
+R1
+R0
+w1679701802
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 9
+L0 30 48
+R11
+r1
+!s85 0
+31
+!s108 1679701804.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
+nbit3@binary@counter_vlg_vec_tst
+vhard_block
+R8
+!i10b 1
+!s100 WJHP9YRR4PgYX_[gmZa7@2
+R9
+I=XcKiZPYeN7oi<6L]KY3D2
+R1
+R0
+R10
+R2
+R3
+!i122 8
+L0 474 45
+R11
+r1
+!s85 0
+31
+R12
+R4
+R5
+!i113 1
+R6
+R7

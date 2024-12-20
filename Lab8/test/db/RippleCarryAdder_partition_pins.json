@@ -1,0 +1,125 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "R[4]",
+					"strict" : false
+				},
+				{
+					"name" : "R[5]",
+					"strict" : false
+				},
+				{
+					"name" : "R[6]",
+					"strict" : false
+				},
+				{
+					"name" : "R[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "OVR",
+					"strict" : false
+				},
+				{
+					"name" : "Neg",
+					"strict" : false
+				},
+				{
+					"name" : "Zero",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Add_Sub",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Bout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Aout[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

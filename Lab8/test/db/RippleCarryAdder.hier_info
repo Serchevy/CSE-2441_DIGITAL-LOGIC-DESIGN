@@ -1,0 +1,96 @@
+|RippleCarryAdder
+Aout[0] => Aout[0].IN1
+Aout[1] => Aout[1].IN1
+Aout[2] => Aout[2].IN1
+Aout[3] => Aout[3].IN1
+Aout[4] => Aout[4].IN1
+Aout[5] => Aout[5].IN1
+Aout[6] => Aout[6].IN1
+Aout[7] => Aout[7].IN1
+Bout[0] => comb.IN0
+Bout[1] => comb.IN0
+Bout[2] => comb.IN0
+Bout[3] => comb.IN0
+Bout[4] => comb.IN0
+Bout[5] => comb.IN0
+Bout[6] => comb.IN0
+Bout[7] => comb.IN0
+Add_Sub => C[0].IN1
+R[0] << FAbehav:s0.port3
+R[1] << FAbehav:s1.port3
+R[2] << FAbehav:s2.port3
+R[3] << FAbehav:s3.port3
+R[4] << FAbehav:s4.port3
+R[5] << FAbehav:s5.port3
+R[6] << FAbehav:s6.port3
+R[7] << FAbehav:s7.port3
+Cout << FAbehav:s7.port4
+OVR << OVR.DB_MAX_OUTPUT_PORT_TYPE
+Neg << FAbehav:s7.port3
+Zero << Zero.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s0
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s1
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s2
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s3
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s4
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s5
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s6
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FAbehav:s7
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

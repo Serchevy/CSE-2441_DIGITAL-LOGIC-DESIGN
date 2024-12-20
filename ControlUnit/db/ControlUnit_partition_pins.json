@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "LdA",
+					"strict" : false
+				},
+				{
+					"name" : "LdB",
+					"strict" : false
+				},
+				{
+					"name" : "LdR",
+					"strict" : false
+				},
+				{
+					"name" : "LdOU",
+					"strict" : false
+				},
+				{
+					"name" : "IUAU",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "enter",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

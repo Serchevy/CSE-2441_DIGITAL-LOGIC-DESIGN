@@ -1,0 +1,6 @@
+module CU (
+	input clock, enter, add_sub, clear,
+	output clck, reset, LdA, LdB, LdR, AddSub, LdOU
+	);
+	
+	

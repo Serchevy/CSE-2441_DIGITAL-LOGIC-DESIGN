@@ -1,0 +1,39 @@
+
+module Calc_IU (
+	input clock, reset, 
+	input [3:0] row,
+	output [3:0] col,
+	output [7:0] LEDR
+	);
+	
+	wire [15:0] out_;
+	wire [3:0] col_temp;
+	
+	keypad_input inpt (
+		.clk(clock) ,
+		.reset(reset) ,
+		.row(row) ,
+		.col(col_temp) ,
+		.out(out_) 
+	);
+	
+	assign col = col_temp;
+	
+	wire [7:0] binSM;
+	
+	BCD2BinarySM BinSM (
+		.BCD(out_) ,
+		.binarySM(binSM)
+	);
+	
+	wire [7:0] TwoNum;
+	
+	SIGN2two num2s )
+		.A(binSM) ,
+		.B(TwoNum)
+	);
+	
+	assign LEDR = TwoNum;
+	
+	
+endmodule 

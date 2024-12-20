@@ -1,0 +1,24 @@
+|CU
+clock => clock.IN1
+enter => enter.IN1
+add_sub => ~NO_FANOUT~
+clear => state[0].ACLR
+clear => state[1].ACLR
+reset <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LdA <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LdB <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LdR <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+AddSub <= <GND>
+LdOU <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+IUAU <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+LED[0] <= state[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= state[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CU|EdgeDetect:EdgeDetect_inst
+in => out.IN1
+in => in_delay.DATAIN
+clock => in_delay.CLK
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

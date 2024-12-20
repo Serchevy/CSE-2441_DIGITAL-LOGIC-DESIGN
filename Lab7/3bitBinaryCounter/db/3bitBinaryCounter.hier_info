@@ -1,0 +1,15 @@
+|bit3BinaryCounter
+y0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+set => inst3.PRESET
+set => inst2.PRESET
+set => inst4.PRESET
+Clear => inst3.ACLR
+Clear => inst2.ACLR
+Clear => inst4.ACLR
+Count => inst3.CLK
+Count => inst2.CLK
+Count => inst4.CLK
+y1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
